@@ -6,15 +6,43 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: 700;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
-h1 {
+h2 {
   font-size: 2rem;
   font-weight: 700;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  /* margin-block-end: 0 !important;
+  margin-block-start: 0 !important; */
+  padding-inline-start: 0 !important;
+}
+
+.title {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.navbar {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+}
+
 .containerLogo {
-  padding: 3rem 0;
+  padding: 2rem 0;
   margin: 0 10%;
 }
 
