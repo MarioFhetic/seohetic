@@ -1,6 +1,8 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #1f1f1f;
+  color: white;
 }
 
 h1 {
@@ -8,6 +10,7 @@ h1 {
   font-weight: 700;
   margin-block-end: 0;
   margin-block-start: 0;
+  font-family: "Heebo", sans-serif;
 }
 
 h2 {
@@ -17,13 +20,15 @@ h2 {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 ul {
   /* margin-block-end: 0 !important;
   margin-block-start: 0 !important; */
   padding-inline-start: 0 !important;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
 }
 
 .title {
@@ -32,9 +37,10 @@ ul {
 }
 
 .navbar {
-  padding: 2rem 0;
+  padding: 2rem 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar ul {
@@ -46,6 +52,40 @@ ul {
   margin: 0 10%;
 }
 
+p {
+  text-align: center;
+  line-height: 180%;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.containerHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; */
+}
+
+.containerHeader p {
+  /* width: 80%; */
+  width: 50%;
+}
+
+.containerHeader button {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  cursor: pointer;
+}
+
 .sectionMain {
   display: flex;
   flex-direction: column;
@@ -54,12 +94,59 @@ ul {
 }
 
 .containerImg {
-  width: 37.5rem;
+  width: 100vw;
+  position: relative;
 }
+
 .containerImg img {
   position: relative;
   width: 100%;
   object-fit: cover;
+}
+
+.sectionProducts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+
+.containerProducts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.product {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
+}
+
+.product img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 0.1s linear;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.containerImg .overlayImg {
+  position: absolute;
+  z-index: 10;
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  transition: 1s linear;
+}
+
+.containerImg .overlayImg:hover {
+  opacity: 0.2;
 }
 
 .sectionMain .contentSectionMain {
