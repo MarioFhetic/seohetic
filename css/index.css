@@ -108,18 +108,18 @@ p {
   display: flex;
   justify-content: center;
   margin-bottom: 4%;
+  flex-wrap: wrap;
 }
 
 .containerProducts {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   width: 90vw;
 }
 
 .product {
-  width: 400px;
-  height: 300px;
+  width: 25vw;
+  height: 18.75rem;
   position: relative;
   cursor: pointer;
 }
@@ -195,6 +195,10 @@ ul {
 
 ul :nth-child(2) {
   padding: 0 1rem;
+}
+
+.containerSocial {
+  text-align: center;
 }
 
 .containerSocial span {
