@@ -24,11 +24,13 @@
     <title>SireneTiles</title>
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
 
   </head>
   <body>
       <header>
-        <nav class="navbar">
+        <!-- <nav class="navbar">
           <span>SireneTiles </span>
           <ul>
             <a href="#"><li>Produits</li></a>
@@ -36,13 +38,33 @@
             <a href="#"><li>Contact</li></a>
           </ul>
           
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">SireneTiles</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+            </ul>
+          </div>
         </nav>
 
           <!-- <div class="containerLogo">
               <span class="logo">CarrelageSirene.</span>
           </div> -->
           <div class="containerHeader">
-            <h1 class="title">SireneTiles</h1>
+            <h1 class="display-1 title">SireneTiles</h1>
             <p>
               Que ce soit pour une salle de bain, une cuisine, un séjour ou pour un couloir; le carrelage petite sirène ramène une touche de magie et de fantaisie dans votre intérieur. Par ses couleurs vives il illumine vos espaces et remémore à toute la famille des bons moments passés devant ce classique de Disney. Polyvalent, résistant et facile à entretenir, le carrelage habille tous les sols de la maison.             </p>
             <a href="">
@@ -62,8 +84,8 @@
                 <img src="assets/tiles01.jpg" alt="Photo montrant la petite sirène du film">
             </div>
             <div class="contentSectionMain">
-                <h2>Carrelage petite sirène</h2>
-                <h3>Des carrelages uniques</h3>
+                <h2 class="h2">Carrelage petite sirène</h2>
+                <h3 class="h3">Des carrelages uniques</h3>
                 <p>
                   Le carrelage petite sirène est un carrelage unique qui répond aux plus hauts standards de qualité. Antidérapant, durable et respectant les normes ISO, bénéficiez de nos 20 ans de savoir-faire pour le carrelage au travers de ce produit d’exception. De la préparation à la pose du carrelage, en passant par le nettoyage et l’entretien, nous serons là à chaque étape pour vous accompagner sur le long terme.                </p>
             </div>
@@ -73,51 +95,51 @@
               <a href="#
               ">
               <div class="product">
-                <h4>Petit sirène une</h4>
-                <img src="assets/tiles01.jpg" alt="Image de carrelage petite sirène numéro 1">
+                <h4 class="h4">Petit sirène une</h4>
+                <img class="img-fluid" src="assets/tiles01.jpg" alt="Image de carrelage petite sirène numéro 1">
               </div>
             </a>
 
             <a href="#">
               <div class="product">
-                <h4>Petit sirène deux</h4>
-                <img src="assets/tiles02.jpg" alt="Image de carrelage petite sirène numéro 2">
+                <h4 class="h4">Petit sirène deux</h4>
+                <img class="img-fluid" src="assets/tiles02.jpg" alt="Image de carrelage petite sirène numéro 2">
               </div>
             </a>
 
             <a href="#">
               <div class="product">
-                <h4>Petit sirène trois</h4>
-                <img src="assets/tiles03.jpeg" alt="Image de carrelage petite sirène numéro 3">
+                <h4 class="h4">Petit sirène trois</h4>
+                <img class="img-fluid" src="assets/tiles03.jpeg" alt="Image de carrelage petite sirène numéro 3">
               </div>
             </a>
             </div>
           </section>
-          <section class="sectionProducts">
+          <!-- <section class="sectionProducts">
             <div class="containerProducts">
               <a href="#
               ">
               <div class="product">
-                <h4>Petit sirène quatre</h4>
-                <img src="assets/tiles01.jpg" alt="Image de carrelage petite sirène numéro 4">
+                <h4 class="h4">Petit sirène quatre</h4>
+                <img class="img-fluid" src="assets/tiles01.jpg" alt="Image de carrelage petite sirène numéro 4">
               </div>
             </a>
 
             <a href="#">
               <div class="product">
-                <h4>Petit sirène cinq</h4>
-                <img src="assets/tiles02.jpg" alt="Image de carrelage petite sirène numéro 5">
+                <h4 class="h4">Petit sirène cinq</h4>
+                <img class="img-fluid" src="assets/tiles02.jpg" alt="Image de carrelage petite sirène numéro 5">
               </div>
             </a>
 
             <a href="#">
               <div class="product">
-                <h4>Petit sirène six</h4>
-                <img src="assets/tiles03.jpeg" alt="Image de carrelage petite sirène numéro 6">
+                <h4 class="h4">Petit sirène six</h4>
+                <img class="img-fluid" src="assets/tiles03.jpeg" alt="Image de carrelage petite sirène numéro 6">
               </div>
             </a>
             </div>
-          </section>
+          </section> -->
 
           <div class="containerHeader">
             <button>
@@ -155,5 +177,8 @@
             <span>CarrelageSirene | 2020 © Tous droits réservés</span>
           </div>
       </footer>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
   </body>
 </html>
