@@ -97,7 +97,7 @@ ul {
 
 .bigContainerCard {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 4rem 0;
   padding: 0 2rem;

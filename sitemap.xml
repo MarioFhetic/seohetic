@@ -8,8 +8,29 @@
 
 
 <url>
-  <loc>https://carrelagepetitesirene.netlify.app/</loc>
-  <lastmod>2020-11-05T11:27:20+00:00</lastmod>
+  <loc>https://carrelagepetitesirene.store/</loc>
+  <lastmod>2020-11-17T10:31:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://carrelagepetitesirene.store/product.html</loc>
+  <lastmod>2020-11-17T10:31:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://carrelagepetitesirene.store/licencesirene.html</loc>
+  <lastmod>2020-11-17T10:31:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://carrelagepetitesirene.store/licencemickey.html</loc>
+  <lastmod>2020-11-17T10:31:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://carrelagepetitesirene.store/licencelion.html</loc>
+  <lastmod>2020-11-17T10:31:29+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
