@@ -165,7 +165,11 @@ ul :nth-child(2) {
 
 .containerSocial span {
   margin: auto;
-  font-size: 0.7rem;
+  font-size: 1rem;
+}
+
+.containerSocial li {
+  padding: 0 1rem;
 }
 
 button {
